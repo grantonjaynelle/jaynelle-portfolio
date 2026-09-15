@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jaynelle Granton personal portfolio" />
+  <title>Jaynelle Granton | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="header">
+    <a class="logo" href="#home">jaynelle<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#skills">Interests</a>
+      <a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO ♡</p>
+        <h1>Hello, I'm<br><em>Jaynelle</em><br>Granton<span class="pink">.</span></h1>
+        <p class="hero-description">A creative student with a love for programming, stories, movies, and discovering beautiful little things in life.</p>
+        <div class="hero-buttons">
+          <a href="#about" class="button button-primary">Get to know me ↗</a>
+          <a href="#contact" class="button button-outline">Let's connect</a>
+        </div>
+        <div class="mini-tags">
+          <span>♡ Reading</span><span>♡ Movies</span><span>♡ Shopping</span>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal">
+        <div class="photo-frame">
+          <span class="photo-star star-one">✦</span>
+          <span class="photo-star star-two">♡</span>
+          <img src="profile.jpg" alt="Jaynelle Granton portrait" />
+          <div class="photo-label">JAYNELLE GRANTON</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>A little about<br><em>myself ♡</em></h2>
+      </div>
+      <div class="section-text reveal">
+        <p>Hi! I'm Jaynelle Granton, a student interested in programming and technology. I enjoy learning new concepts, exploring creative ideas, and improving my skills through practice.</p>
+        <p>Outside of school, I love reading, watching movies, and shopping. These hobbies help me relax, stay inspired, and enjoy my free time.</p>
+      </div>
+    </section>
+
+    <section class="section" id="hobbies">
+      <div class="section-top reveal">
+        <div><p class="eyebrow">02 / MY FREE TIME</p><h2>Things I <em>enjoy</em></h2></div>
+        <p class="section-note">Little things, big happiness.</p>
+      </div>
+      <div class="card-grid three-columns">
+        <article class="info-card reveal"><div class="card-icon">📖</div><p class="card-number">01</p><h3>Reading</h3><p>Getting lost in stories, discovering new perspectives, and enjoying quiet moments with a good book.</p></article>
+        <article class="info-card reveal"><div class="card-icon">🎬</div><p class="card-number">02</p><h3>Watching Movies</h3><p>Exploring different stories, memorable characters, and cinematic experiences.</p></article>
+        <article class="info-card reveal"><div class="card-icon">🛍️</div><p class="card-number">03</p><h3>Shopping</h3><p>Discovering cute finds, exploring styles, and enjoying the excitement of shopping.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-top reveal">
+        <div><p class="eyebrow">03 / MY INTERESTS</p><h2>Programming <em>passion</em></h2></div>
+      </div>
+      <p class="intro-text reveal">I'm interested in anything related to programming and technology. I want to keep learning, practicing, and turning ideas into useful digital projects.</p>
+      <div class="interest-list">
+        <article class="interest-item reveal"><span>01</span><div><h3>Web Development</h3><p>Learning how websites are structured, designed, and made interactive.</p></div><b>↗</b></article>
+        <article class="interest-item reveal"><span>02</span><div><h3>Programming Logic</h3><p>Practicing problem solving, algorithms, and step-by-step thinking.</p></div><b>↗</b></article>
+        <article class="interest-item reveal"><span>03</span><div><h3>Creative Coding</h3><p>Exploring ways to turn ideas into useful and creative digital projects.</p></div><b>↗</b></article>
+        <article class="interest-item reveal"><span>04</span><div><h3>Technology</h3><p>Discovering new tools, software, and concepts related to IT.</p></div><b>↗</b></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">LET'S CONNECT ♡</p>
+        <h2>Thanks for visiting<span class="pink">.</span></h2>
+        <p>Want to know more about me? Feel free to connect with me on Facebook.</p>
+        <a class="button button-primary" href="https://www.facebook.com/jaynelle.granton.92" target="_blank" rel="noopener noreferrer">Visit my Facebook ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>© <span id="year"></span> Jaynelle Granton</span><span>Made with ♡ and code.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
